@@ -90,7 +90,11 @@ i{
 .navbar-nav>li>a:hover{
 	background-color:#ffffff !important;
 }
-@media (max-width: 960px) {
+html{
+	scroll-behavior:smooth;
+}
+
+@media (max-width: 1200px) {
     .navbar-header {
         float: none;
     }
