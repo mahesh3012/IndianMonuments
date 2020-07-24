@@ -40,7 +40,7 @@ td{
 	width:50%;
 	border:solid 1px #000000;
 	padding:2%;
-	text-decoration:none;	
+	text-decoration:none;
 }
 tr:nth-child(even){
 	background-color:rgba(219,212,212,0.75);
@@ -51,9 +51,18 @@ tr:nth-child(odd){
 #map{
 	width:35%;
 }
+
+@media(max-width: 120vmin){
+	#map{
+		width:100%;
+	}
+	table{
+		width: 100%;
+	}
+
 i{
 	font-size:300%;
-	color:#006400;	
+	color:#006400;
 	background-color:rgba(256,256,256,0.5);
 	position:fixed;
 	bottom:20px;
@@ -75,7 +84,7 @@ i{
 .menu a:hover{
 	width:16%;
 	border:double 2px #000000;
-	background-color:#FFFFFF;	
+	background-color:#FFFFFF;
 }
 .navbar-inverse{
 	background-color:rgba(0,0,0,0);
