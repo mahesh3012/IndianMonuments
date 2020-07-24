@@ -34,7 +34,7 @@ th{
 	border:solid 3px #000000;
 	background-color:#bbbbbb;
 	padding:5%;
-	font-size:125%;
+	font-size:2vmin;
 }
 td{
 	width:50%;
@@ -60,8 +60,8 @@ tr:nth-child(odd){
 		width: 100%;
 	}
 	div,footer{
-	font-size: 4vmin;
-}
+		font-size: 3vmin;
+	}
 
 i{
 	font-size:300%;
