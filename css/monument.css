@@ -25,7 +25,6 @@ div,footer{
 	margin-top:1%;
 	margin-bottom:1%;
 	background:rgba(160,204,217,0.38);
-	font-size: 5vmin;
 }
 table{
 	width:35%;
@@ -60,6 +59,9 @@ tr:nth-child(odd){
 	table{
 		width: 100%;
 	}
+	div,footer{
+	font-size: 4vmin;
+}
 
 i{
 	font-size:300%;
